@@ -1,0 +1,33 @@
+ul.first {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background: linear-gradient(to Right, Black, Gainsboro);
+    border: 1px solid black;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    width: auto;
+    text-decoration: none;
+    padding: 8px 20px;
+    color: white;
+    height: 30px;
+    font-size: 18px;
+}
+
+li a:hover {
+    background-color: Silver;
+    color: black;
+}
+
+li a.active {
+    background: linear-gradient(to Right, DimGray, white);
+    color: black;
+}
+
+li.first {
+    border-bottom: 1px solid black
+}
